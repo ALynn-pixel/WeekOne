@@ -1,0 +1,165 @@
+body {
+  background-color: #f7f7f7;
+}
+
+#header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 10px;
+}
+
+#menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-top: 10px;
+}
+
+li {
+  margin: 10px;
+}
+
+a {
+  color: black;
+  border: 2px solid black;
+  padding: 5px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+a:hover {
+  color: gray;
+}
+
+ #mainpic {
+  max-width: 100%;
+  padding-top: 10px;
+ }
+
+ #hero {
+   display: flex;
+   justify-content: space-between;
+   margin-top: 20px;
+ }
+
+ #content {
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   width: 75%;
+ }
+
+ #SEO {
+   display: flex;
+   background-color: royalblue;
+   color: #f7f7f7;
+   height: 30%;
+   margin: 10px;
+   padding: 20px;
+   text-align: left;
+ }
+
+#aboutSEO {
+  width: 70%;
+  padding: 10px;
+}
+
+ #SEOimg {
+   width: 250px;
+   height: 200px;
+ }
+
+
+ #reputation{
+   display: flex;
+   background-color: royalblue;
+   color: #f7f7f7;
+   order: 3;
+   height: 30%;
+   margin: 10px;
+   padding: 20px;
+   text-align: right;
+ }
+
+ #aboutRep {
+   order: 2;
+  width: 70%;
+  padding: 10px;
+ }
+
+ #repimg {
+   order: 1;
+  width: 250px;
+  height: 200px;
+ }
+
+
+ #social {
+   display: flex;
+   background-color: royalblue;
+   color: #f7f7f7;
+   order: 4;
+   height: 30%;
+   margin: 10px;
+   padding: 20px;
+ }
+
+ #aboutSocial {
+  width: 70%;
+  padding: 10px;
+ }
+
+#socialimg {
+  height: 200px;
+  width: 250px;
+}
+
+
+ #sidebar {
+   display: flex;
+   flex-direction: column;
+   order: 2;
+   align-self: flex-end;
+   text-align: center;
+   border: 5px solid black;
+   margin: 10px;
+   padding: 20px;
+   width: 20%;
+ }
+
+ #lead {
+   margin-bottom: 30px;
+ }
+
+ #awareness {
+   margin-bottom: 30px;
+ }
+
+ #arrow {
+   width: 50px;
+   height: 50px;
+ }
+
+  #money {
+   width: 50px;
+   height: 50px;
+ }
+
+  #brand {
+   width: 50px;
+   height: 50px;
+ }
+
+ #footer {
+   display: flex;
+   justify-content: center;
+ }
+
+#footerList {
+  display: flex;
+  color: #444444;
+  flex-direction: row;
+  list-style: none;
+  font-size: 14px;
+}
